@@ -1,0 +1,75 @@
+Fazer
+-Bug: Se eu entrar no diodo pelo ponto de saída e passar até sair pelo ponto de entrada e então entrar no diodo pelo seu ponto de entrada eu to virando volta.
+ O check do diodo obviamente não é suficiente. A condição de poder terminar volta só será válida se ele tiver saído pela saída e não tiver passado ainda na area de virar volta.
+ 
+-Script automatizado (ou semiautomático) de deploy no azure (deve gerar a imagem, logar no docker repo, upá-la pro repo, parar a minha app no azure e redeployá-la)
+-Batidas devem realmente prejudicar, deve perder mta velocidade, no momento n ta perdendo
+-Jogador entrar usando conta google ou facebook
+-Inteligência artificial pros bots (fazer uma navmesh)
+-Decorar o mapa
+-Purgar assets que não vão ser usados e agrupar os sendo usados em bundles.
+-Criar vários mapas
+-Por propagandas pra ganhar dinheiro
+-Por na loja do google
+-Por no meu servidor
+-Por na loja da apple
+-Experimentar aumento de torque logarítimico.
+-Criar uma telinha prévia pro jogador dizer quem ele é
+-Guardar o tempo de volta no banco de dados[Jogador, tempo, pista]
+-Mostrar o melhor tempo desse jogador na tela
+-Mostrar o melhor tempo global (todos os jogadores)
+-Gerar um executável web pra publicar na azure
+-Fazer uma pista mais complexa mas sem elevação
+-Fazer pista com elevações.
+-Ronco do motor não deve ser linear mas sim uma função que não tenha valores tão altos na imagem quando o dominio estiver em numeros baixos (talvez polinomio...)
+
+
+Fazendo
+-Interaces apropriadas para o form-factor
+ -Distinguir entre rodar no desktop e rodar em um disp. movel.
+ -Controles de mobile em disp.moveis
+ -Controles de desktop em desktop
+ -WebGL começar maximizado.
+ 
+-Multiplayer
+ -Conceito de jogador
+ -Conceito de corrida
+  -Lobby
+  -Buscar corridas  
+ -Começar corrida e cada jogador em uma corrida enxergar os outros jogadores.
+ -Mostrar posiçaõ dos jogadores na corrida (1o, 2o...)
+ -Conceito de fim de corrida e retornar pro lobby quando a corrida acabar.
+-Multiplos carros
+ -Criar vários modelos de carros
+ -Jogador poder escolher
+
+
+
+Feito
+Dia 1
+-Camera acompanhar carro
+-Carro acelerar
+-Carro freiar
+-Virar o carro
+Dia 2
+-Por no bitbucket
+-Rodas girando e levando em conta o steering angle
+-Som ao acelerar, desacelerar e na velocidade máxima
+-Som de pneu cantando ao virar o carro
+-Som de colisao
+-Melhoria no freio - agora ele tira torque tb
+-A marcha ré deve ter bem menos velocidade que a direção frontal
+-Som de pneu cantando ao freiar.
+-O barulho do pneu cantando deve ser proporcional à velocidade.
+-Testar o deslocamento do carro no meu mapa 
+-Fazer uma pista oval simples, sem elevação
+-Determinar uma volta completa
+-Reorganização do código
+-Exibir Velocidade
+-Contar tempo de volta
+Dia 3
+-Publicar o executável na azure
+-Mandar o link pra erika
+
+
+
